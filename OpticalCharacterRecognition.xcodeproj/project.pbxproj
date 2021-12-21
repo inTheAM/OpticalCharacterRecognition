@@ -11,6 +11,9 @@
 		E28AB90B2771AEEA0049614F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AB90A2771AEEA0049614F /* ContentView.swift */; };
 		E28AB90D2771AEEC0049614F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28AB90C2771AEEC0049614F /* Assets.xcassets */; };
 		E28AB9102771AEEC0049614F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28AB90F2771AEEC0049614F /* Preview Assets.xcassets */; };
+		E28AB9172771C0A30049614F /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AB9162771C0A30049614F /* TextRecognizer.swift */; };
+		E28AB9192771C0DC0049614F /* TextRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AB9182771C0DC0049614F /* TextRecognitionService.swift */; };
+		E28AB91B2771C1500049614F /* TextRecognitionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AB91A2771C1500049614F /* TextRecognitionError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E28AB90A2771AEEA0049614F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E28AB90C2771AEEC0049614F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28AB90F2771AEEC0049614F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E28AB9162771C0A30049614F /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		E28AB9182771C0DC0049614F /* TextRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionService.swift; sourceTree = "<group>"; };
+		E28AB91A2771C1500049614F /* TextRecognitionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				E28AB9082771AEEA0049614F /* OpticalCharacterRecognitionApp.swift */,
 				E28AB90A2771AEEA0049614F /* ContentView.swift */,
+				E28AB9162771C0A30049614F /* TextRecognizer.swift */,
+				E28AB91A2771C1500049614F /* TextRecognitionError.swift */,
+				E28AB9182771C0DC0049614F /* TextRecognitionService.swift */,
 				E28AB90C2771AEEC0049614F /* Assets.xcassets */,
 				E28AB90E2771AEEC0049614F /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28AB90B2771AEEA0049614F /* ContentView.swift in Sources */,
+				E28AB91B2771C1500049614F /* TextRecognitionError.swift in Sources */,
+				E28AB9172771C0A30049614F /* TextRecognizer.swift in Sources */,
+				E28AB9192771C0DC0049614F /* TextRecognitionService.swift in Sources */,
 				E28AB9092771AEEA0049614F /* OpticalCharacterRecognitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
